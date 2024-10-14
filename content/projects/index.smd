@@ -1,0 +1,35 @@
+---
+.title = "Projects",
+.date = @date("2024-10-14T00:00:00"),
+.author = "David Miles",
+.layout = "page.shtml",
+.draft = false
+---
+
+## [EMF Stick](https://github.com/Davermouse/emfstick)
+
+At the [EMF Camp 2024](https://emfcamp.org) swap shop, I found a set of flight sticks from 
+an unknown aircraft with no documentation or suggestion on how to make them work.
+
+After some playing around, I was able to figure out how the stick communicated with a PC 
+and reverse engineer the protocol it used. This became a CircuitPython project which runs on a Raspberry Pi Pico.
+
+This project was also featured in an article in MagPi magazine #146 you can read [here](https://www.raspberrypi.com/news/raspberry-pi-pico-brings-junked-joysticks-back-to-life-the-magpi-146/).
+
+## [GPM Tool](https://github.com/Davermouse/gpm-tool)
+
+This project is an attempt to reverse engineer and build tooling around the PSX game [Gunparade March](https://en.wikipedia.org/wiki/Gunparade_March).
+
+This involves reverse engineering the game's binaries using Ghidra, along with analyzing the game as it runs in an emulator.
+
+I've progressed far enough to parse the data and event files used by the game, and can make changes to the events and rebuild the project.
+
+This is currently implemented in an SPA written in Typescript which also includes CD ROM image parsing and modification. In order to make it easier to update events, I'm currently looking at producing text scripts for events which can be manipulated more easily.
+
+## [Docker Yaroze](https://github.com/Davermouse/gpm-tool)
+
+The Net Yaroze was a development kit for the original Playstation released by Sony in 1997 aimed at allowing hobbyists to make Playstation games.
+
+The toolchain released with the kit was targetted at Windows 3.1 and 95, and is very unpleasant to use on modern systems.
+
+After some work done by others in the community to compile for Playstation using more modern GCC versions, I built an all-in Docker image making it easy to compile and build for Yaroze anywhere you can use Docker.

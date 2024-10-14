@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head id="head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title id="title">
+      <super>
+      - davidmiles.dev
+    </title>
+    <link rel="stylesheet" type="text/css" href="$site.asset('fonts.css').link()">
+    <link rel="stylesheet" type="text/css" href="$site.asset('style.css').link()">
+    <super>
+  </head>
+  <body>
+    <nav id="menu" class="centered">
+      <a href="/">Home</a>
+      •
+      <a href="$site.page('about').link()">About Me</a>
+      •
+      <a href="$site.page('projects').link()">Projects</a>
+      •
+      <a href="https://github.com/davermouse" target="_blank">
+        Github
+      </a>
+      •
+      <a href="https://www.linkedin.com/in/david-miles-50703332/" target="_blank">
+        LinkedIn
+      </a>
+    </nav>
+    <div id="content">
+      <super>
+    </div>
+  </body>
+</html>

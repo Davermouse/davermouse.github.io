@@ -1,0 +1,11 @@
+---
+.title = "Homepage",
+.date = @date("2024-10-14T00:00:00"),
+.author = "David Miles",
+.layout = "home.shtml",
+.draft = false
+---
+
+Welcome to my web site! 
+
+Here I write about the things I'm currently playing with, and talk about various ongoing projects.
