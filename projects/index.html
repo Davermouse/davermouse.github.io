@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head id="head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title id="title">
+      Projects
+      - davidmiles.dev
+    </title>
+    <link rel="stylesheet" type="text/css" href="/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    
+  </head>
+  <body>
+    <nav id="menu" class="centered">
+      <a href="/">Home</a>
+      •
+      <a href="/about/">About Me</a>
+      •
+      <a href="/projects/">Projects</a>
+      •
+      <a href="https://github.com/davermouse" target="_blank">
+        Github
+      </a>
+      •
+      <a href="https://www.linkedin.com/in/david-miles-50703332/" target="_blank">
+        LinkedIn
+      </a>
+    </nav>
+    <div id="content">
+      
+  <style>
+    h3.overtitle {
+           margin-bottom: 0;
+         }
+         h1.title {
+           margin-top: 0;
+         }
+    
+        #page h2, #page h3 {
+            text-align: left;
+        }
+
+        #page h2 {
+            font-size: 1.7rem;
+            border-bottom: 1px dashed #aaa;
+            margin-top: 1em;
+        }
+
+        #page h3 {
+            font-size: 1.5rem;
+        }
+    
+        #page h4 {
+            font-size: 1rem;
+        }
+  </style>
+  <h3 class="overtitle centered">davidmiles.dev</h3>
+  <h1 class="title">Projects</h1>
+  <div id="page"><h2><a href="https://github.com/Davermouse/emfstick" target="_blank">EMF Stick</a></h2><p>At the <a href="https://emfcamp.org" target="_blank">EMF Camp 2024</a> swap shop, I found a set of flight sticks from an unknown aircraft with no documentation or suggestion on how to make them work.</p><p>After some playing around, I was able to figure out how the stick communicated with a PC and reverse engineer the protocol it used. This became a CircuitPython project which runs on a Raspberry Pi Pico.</p><p>This project was also featured in an article in MagPi magazine #146 you can read <a href="https://www.raspberrypi.com/news/raspberry-pi-pico-brings-junked-joysticks-back-to-life-the-magpi-146/" target="_blank">here</a>.</p><h2><a href="https://github.com/Davermouse/gpm-tool" target="_blank">GPM Tool</a></h2><p>This project is an attempt to reverse engineer and build tooling around the PSX game <a href="https://en.wikipedia.org/wiki/Gunparade_March" target="_blank">Gunparade March</a>.</p><p>This involves reverse engineering the game's binaries using Ghidra, along with analyzing the game as it runs in an emulator.</p><p>I've progressed far enough to parse the data and event files used by the game, and can make changes to the events and rebuild the project.</p><p>This is currently implemented in an SPA written in Typescript which also includes CD ROM image parsing and modification. In order to make it easier to update events, I'm currently looking at producing text scripts for events which can be manipulated more easily.</p><h2><a href="https://github.com/Davermouse/gpm-tool" target="_blank">Docker Yaroze</a></h2><p>The Net Yaroze was a development kit for the original Playstation released by Sony in 1997 aimed at allowing hobbyists to make Playstation games.</p><p>The toolchain released with the kit was targetted at Windows 3.1 and 95, and is very unpleasant to use on modern systems.</p><p>After some work done by others in the community to compile for Playstation using more modern GCC versions, I built an all-in Docker image making it easy to compile and build for Yaroze anywhere you can use Docker.</p></div>
+
+    </div>
+  </body>
+</html>

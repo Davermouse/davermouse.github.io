@@ -1,0 +1,40 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu a {
+    font-family: 'Montserrat';
+
+    font-variation-settings: "wght" 200;
+    transition: 0.5s;
+}
+
+#menu a:hover {
+    font-variation-settings: "wght" 500;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    scrollbar-gutter: stable;
+    overflow-y: scroll;
+
+    font-family: 'Lora', serif;
+}
+
+#content {
+    align-self: center;
+    box-sizing: border-box;
+    padding: 0 30px;
+    max-width: min(600px, 100vw);
+}
+  
+.centered {
+    align-self: center;
+    text-align: center;
+}
+
+.overtitle {
+    margin-bottom: 0;
+}
