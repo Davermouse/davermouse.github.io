@@ -33,3 +33,7 @@ The Net Yaroze was a development kit for the original Playstation released by So
 The toolchain released with the kit was targetted at Windows 3.1 and 95, and is very unpleasant to use on modern systems.
 
 After some work done by others in the community to compile for Playstation using more modern GCC versions, I built an all-in Docker image making it easy to compile and build for Yaroze anywhere you can use Docker.
+
+## [This site](https://github.com/Davermouse/davermouse.github.io)
+
+This site is built using the [Zine](https://zine-ssg.io) static site generator.
