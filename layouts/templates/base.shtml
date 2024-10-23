@@ -15,8 +15,6 @@
     <nav id="menu" class="centered">
       <a href="/">Home</a>
       •
-      <a href="$site.page('about').link()">About Me</a>
-      •
       <a href="$site.page('projects').link()">Projects</a>
       •
       <a href="https://github.com/davermouse" target="_blank">
